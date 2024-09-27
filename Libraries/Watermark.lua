@@ -11,10 +11,12 @@ function module:CreateWatermark(text, properties)
 	local pre = Instance.new("TextLabel")
 	local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
 
-	--Properties:
-
 	Watermark.Name = "Watermark"
-	Watermark.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+	if gethui() then
+		Watermark.Parent = gethui()
+	else
+		Watermark.Parent = game.CoreGui
+	end
 	Watermark.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 	Watermark.DisplayOrder = 999999999
 	Watermark.ResetOnSpawn = false
