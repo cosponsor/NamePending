@@ -3,7 +3,8 @@
 |    Library Made for IonHub (discord.gg/seU6gab)
 |    Developed by tatar0071#0627 and tested#0021
 |    IF YOU USE THIS, PLEASE CREDIT DEVELOPER(S)!
-|
+|    
+|    Edited by Mew, for cleaner appearance.
 --]]------------------------------------------------
 
 -- Services
